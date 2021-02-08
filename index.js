@@ -5,10 +5,10 @@ $(function () {
     // 送信
     $('form').submit(function () {
         var name = $('input[name="name"]').val();
-        var zip11 = $('textarea[name="zip11"]').val();
-        var addr11 = $('textarea[name="addr11"]').val();
-        var tel = $('textarea[name="tel"]').val();
-        var date = $('textarea[name="date"]').val();
+        var zip11 = $('input[name="zip11"]').val();
+        var addr11 = $('input[name="addr11"]').val();
+        var tel = $('input[name="tel"]').val();
+        var date = $('input[name="date"]').val();
         var reasons = $('textarea[name="reasons"]').val();
         // var date = $('input[name="date"]').val();
         // var tool = $('input[name="tool"]').val();
