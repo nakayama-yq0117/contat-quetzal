@@ -23,7 +23,8 @@ function initializeLiff(liffId) {
 // }
 
 // LINEトーク画面上でメッセージ送信
-function sendMessages(text) {
+function sendText(text) {
+    // liff.sendMessages([{
     liff.sendMessages([{
         'type': 'text',
         'text': text
