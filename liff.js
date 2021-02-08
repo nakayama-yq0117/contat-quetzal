@@ -25,7 +25,7 @@ function sendText(text) {
 // LINEトーク画面上でメッセージ送信
 // function sendMessages(text) {
     liff.sendMessages([{
-        'type': 'text',
+        // 'type': 'text',
         'text': text
     },{
         "type": "sticker",
