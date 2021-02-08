@@ -25,12 +25,8 @@ function sendText(text) {
 // LINEトーク画面上でメッセージ送信
 // function sendMessages(text) {
     liff.sendMessages([{
-        // 'type': 'text',
+        'type': 'text',
         'text': text
-    },{
-        "type": "sticker",
-        "packageId": "11539",
-        "stickerId": "52114113"
     }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
