@@ -14,14 +14,19 @@ $(function () {
         // var tool = $('input[name="tool"]').val();
         
         //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
-        var msg = `${key}\n名前：${name}`;
-        var msg = `${key}\n郵便番号：${zip11}}`;
-        var msg = `${key}\n住所：${addr11}}`;
-        var msg = `${key}\nTEL：${tel}`;
-        var msg = `${key}\n内容：${date}`;
-        var msg = `${key}\n内容：date${reasons}`;
-        sendText(msg);
-
+        var msg1 = `${key}\n名前：${name}`;
+        var msg2 = `${key}\n郵便番号：${zip11}}`;
+        var msg3 = `${key}\n住所：${addr11}}`;
+        var msg4 = `${key}\nTEL：${tel}`;
+        var msg5 = `${key}\n日付：${date}`;
+        var msg6 = `${key}\n内容：date${reasons}`;
+        sendText(msg1);
+        sendText(msg2);
+        sendText(msg3);
+        sendText(msg4);
+        sendText(msg5);
+        sendText(msg6);
+        
         return false;
     });
 });
