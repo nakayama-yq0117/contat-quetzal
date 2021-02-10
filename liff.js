@@ -28,9 +28,6 @@ function sendText(text) {
         'type': 'text',
         'text': text
     },{
-        'type': 'text',
-        'text': "ご回答ありがとうございます。\n\nご担当者よりご連絡いたします。"
-    },{
         "type": "sticker",
         "packageId": "11539",
         "stickerId": "52114113"
