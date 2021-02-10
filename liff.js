@@ -18,7 +18,7 @@ function initializeLiff(liffId) {
         });
 }
 
-function sendText(text) {
+function sendText() {
     // sendMessages(text);
 // }
 
@@ -26,7 +26,7 @@ function sendText(text) {
 // function sendMessages(text) {
     liff.sendMessages([{
         'type': 'text',
-        'text': text
+        'text': "ご回答ありがとうございます。\n\nご担当者よりご連絡いたします。"
     },{
         "type": "sticker",
         "packageId": "11539",
