@@ -18,13 +18,16 @@ function initializeLiff(liffId) {
         });
 }
 
-function sendText() {
+function sendText(text) {
     // sendMessages(text);
 // }
 
 // LINEトーク画面上でメッセージ送信
 // function sendMessages(text) {
     liff.sendMessages([{
+        'type': 'text',
+        'text': text
+    },{
         'type': 'text',
         'text': "ご回答ありがとうございます。\n\nご担当者よりご連絡いたします。"
     },{
